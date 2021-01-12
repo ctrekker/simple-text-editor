@@ -1,7 +1,7 @@
 # simple-text-editor
 A super simple text editor which utilizes the [File System Access API](https://web.dev/file-system-access/) implemented in Google Chrome.
 
-This repository corresponds to the descriptions in [this web article]()
+This repository corresponds to the descriptions in [this web article](https://cotangent.dev/working-with-the-local-filesystem-in-google-chrome/).
 
 ## Running the code
 First, clone this repository:
