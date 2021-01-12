@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+#editor {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    padding: 10px;
+    resize: none;
+    border: 0;
+}
+#editor:focus {
+    outline: none;
+}
+
+
+button {
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 10px;
+    transition: background 0.2s;
+}
+button:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+#indexBody {
+    background-color: rgba(0, 0, 0, 0.02);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.root {
+    padding: 25px;
+    background-color: white;
+    box-shadow: 2px 3px 11px 4px rgba(0, 0, 0, 0.05);
+}
+.root h3 {
+    margin-bottom: 0;
+}
+#recentFiles {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 5px;
+}
+#recentFiles > li {
+    padding: 5px;
+}
+#recentFiles > li > a {
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    transition: background 0.2s;
+}
+#recentFiles > li > a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
